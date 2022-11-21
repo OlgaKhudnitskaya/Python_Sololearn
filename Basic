@@ -32,3 +32,21 @@ print("Hi \r there") #\r is used to shift the cursor to the beginning of the lin
 print("Newline is \\n") #What if we need to include the special character in our output? For example, what if we want to have \n in the output
 #\n is the newline character, while \r is the carriage return. They differ in what uses them. 
 #Windows uses \r\n to signify the enter key was pressed, while Linux and Unix use \n.
+
+print("""this
+is a
+multiline
+text""")
+#Newlines are automatically added for strings created using three quotes.
+print('''
+I'm learning.
+Python's syntax is easy.
+''')
+
+#Write a program to output the letters A B C D, each on a separate line.
+#You can use 3 quotes to add the new lines.
+print('''A
+B
+C
+D''')
+
