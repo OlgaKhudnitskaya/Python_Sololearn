@@ -16,7 +16,7 @@ print(20 % 6) #If we want to find only the remainder in a division, we use the m
 #Create a program to calculate and output the total points earned by the team.
 print((18 * 3) + (7 * 1))
 
-
+#__________________________________________________________________________________________________________________________________________________________________
 # There are situations where you might want to print multiple messages in your code.
 # Each print statement outputs text in a new line.
 print("Shopping List:")
@@ -49,4 +49,29 @@ print('''A
 B
 C
 D''')
+
+#Multiplying a string by an integer, produces a repeated version of the original string. Like this:
+print("spam" * 3) #spamspamspam
+print(4 * '2') #2222
+
+#Create a program to output "hi" 42 times, without any separators, on the same line.
+print('hi'*42)
+
+#You need to make a program for a leaderboard. The program needs to output the numbers 1 to 9, each on a separate line, followed by a dot:
+print('''1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.''')
+
+print('1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.\n9.')
+#_______________________________________________________________________________________________________________________________________________
+
+#Variables
+
+
 
