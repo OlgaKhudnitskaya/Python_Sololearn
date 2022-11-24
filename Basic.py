@@ -72,6 +72,58 @@ print('1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.\n9.')
 #_______________________________________________________________________________________________________________________________________________
 
 #Variables
+#You can use letters, numbers, and underscores in variable names. But you can’t use special symbols, or start the name with a number.
+#You can use the del statement to remove a variable. 
+ #The provided code stores the value 7 in a variable, and outputs it. Change the code to output the value of the variable raised to the power of 3.
+ # num = 7
+ #print(num)
+num = 7
+print(num**3)
+
+#!!!The input statement needs to be followed by parentheses!!! Even if the user enters a number as input, it's processed as a string:
+x = input()
+print("You entered: " + x)
+
+#You can provide a string to input() between the parentheses, producing a prompt message.
+name = input("Enter your name: ")
+print("Hello, " + name) 
+
+ #The following output needs to be produced: “name is age years old”, where name and age are variables.
+name=input()
+age=input() 
+print(name + " is " + age + " years old")
+
+#So we know that the input() function returns a string. To convert it to a number, we can use the int() function:
+age = int(input())
+print(age) 
+
+#Similar to the int() function, the float() function converts a string to a float:
+height = float(input())
+print(height)
+
+#str() function converts a number to a string.
+age = 42
+print("His age is " + str(age))
+
+#you can use input() multiple times to take multiple user inputs.
+name = input()
+age = input()
+print(name + " is " + age)
+
+   #Write a program to take x and y as input and output the string x, repeated y times. Sample Input: hi, 3
+x=input()
+y=int(input())
+print(x*y)
+
+#In-place operators let you write code like 'x = x + 3' more concisely, as 'x += 3'.
+x = "spam"
+print(x)
+x += "eggs"
+print(x)  
+#spam
+#spameggs
+
+
 
 
 
