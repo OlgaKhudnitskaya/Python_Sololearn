@@ -133,6 +133,70 @@ print(bill*20/100)
 #Booleans 
 #Booleans can have two values: True and False.
 #We can create Booleans by comparing values, by using the equal operator ==
+my_boolean = True
+print(my_boolean)
+#True
+
+print(2 == 3)
+#False
+
+print("hello" == "hello")
+#True
+
+#Booleans are created when comparing values. Python has a number of comparison operators:
+#equal to ==, not equal to !=, greater than >, smaller than <, greater or equal to >=, smaller or equal to <=.
+x = 7
+print(x != 8) #True
+print(x > 5) #True
+print(x < 2) #False
+print(x >= 7) #True
+print(x <= 7) #True
+
+#Greater than and smaller than operators can also be used to compare strings lexicographically (the alphabetical order of words is based on the alphabetical order of their component letters). 
+print(“hey” < “hay”) #False
+
+#The True and False Boolean values can be represented as integers 1 and 0, respectively. 
+#Note, that we used the int() function to convert the Boolean to an integer
+x = (7 > 5)
+print(int(x)) #1
+#   _______________________________________
+
+#if Statements
+
+#One thing you can do with Booleans is use if statements to run code based on a certain condition, say, if the Boolean evaluates to True.
+#An if statement looks like this:
+#if condition:
+    #statements
+ 
+ #Python uses indentation (that empty space at the beginning of a line) to delimit blocks of code.
+ #Depending on the program's logic, indentation can be mandatory.
+ #The statements in the if should be indented.
+ #The colon (:) at the end of the expression in the if statement is important, don’t leave it out.
+x = 42
+if x > 5:
+   print("x is greater than 5")
+
+spam = 7
+if spam > 5:
+   print("five")
+if spam > 8:
+   print("eight") #five
+ 
+num = 12
+if num > 5:
+   print("Bigger than 5")
+   if num <= 47:
+      print("Between 5 and 47")
+     
+
+ #Write a program that checks if the water is boiling. Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100.
+temp = int(input())
+if temp >= 100:
+    print ('Boiling')
+  
+
+
+
 
 
 
