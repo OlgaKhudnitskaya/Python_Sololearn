@@ -123,7 +123,16 @@ print(x)
 #spam
 #spameggs
 
+#When you go out to eat, you always tip 20% of the bill amount. You’re making a program to calculate tips and save some time.
+#Your program needs to take the bill amount as input and output the tip as a float.
+bill = int(input())
+print(bill*20/100)
 
+#________________________________________________________________________
+
+#Booleans 
+#Booleans can have two values: True and False.
+#We can create Booleans by comparing values, by using the equal operator ==
 
 
 
