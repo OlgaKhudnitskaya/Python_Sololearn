@@ -194,6 +194,42 @@ temp = int(input())
 if temp >= 100:
     print ('Boiling')
   
+  #else Statements
+  #The else statement can be used to run some statements when the condition of the if statement is False
+  num = 3
+if num == 1:
+  print("One")
+else: 
+  if num == 2:
+    print("Two")
+  else: 
+    if num == 3: 
+      print("Three")
+    else: 
+      print("Something else")
+      
+  #The best way to solve this is the elif (short for else if) statement. It’s a shortcut to use when chaining together if and else statements, making the code shorter and easier to read.
+num = 3
+if num == 1:
+  print("One")
+elif num == 2:
+  print("Two")
+elif num == 3: 
+  print("Three")
+else: 
+  print("Something else")
+  
+  #Write a program to control entrance to a club.
+  #Only people who are 18 or older are allowed to enter the club. Your program takes the age of the person who tries to enter, 
+  #and outputs "Allowed"  if they are allowed to enter the club, and "Sorry" if they are younger than the allowed age.
+ age = int(input())
+if age>=18:
+ print ('Allowed')
+elif age<18:
+   print ('Sorry')
+#_______________________________________________________________________________________________________________________
+
+#Boolean Logic
 
 
 
